@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.section-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around
+
+}
+
+.background-section-one {
+    background-image: url(../assets/img/bg1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    margin: auto;
+    text-align: center;
+    font-size:larger;
+    color:coral;
+    background-color: #000;
+}
+
+#logoBlack {
+    max-width:100px;
+}
+
+.topnav a {
+    display: inline-block;
+    padding: 20px;
+    justify-content: space-between;
+    color: #ff7f50;
+    text-decoration: unset;    
+}
+
+a:hover {
+    color:#8b008b;
+}
+
+.logoBF {
+    max-width: 30%;
+    max-height: auto;    
+}
+
+.produtosDestaque {
+    justify-content: space-between;
+    max-width: auto;
+    height: 300px;
+    text-align: center; 
+}
+
+.imgDestaque{
+    max-width: 300px;
+    margin-top: 150px;
+}
+
+.txtDestaque {
+    text-align: justify;
+    
+}
+
+.background-section-two {
+    background-image: url(../assets/img/bg2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-container {
+    position: absolute;
+    top: 40%;
+    padding-left: 10px;
+    
+}
+
+.card-container {
+    background-color:beige;
+    border-radius: 25px;
+    margin: auto;
+    padding: 25px;
+    height:fit-content;
+    width: auto;
+    justify-content: center;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 12px;
+    background: #44230B;
+    color: #fff;
+}
+
+#form {
+    display: grid;
+    vertical-align: center;
+}
+
+footer {
+    height: 30px;
+    padding: 100px;
+    line-height: 2.5;
+    text-align: center;
+    background-color: #44230B;
+    color: #fff;
+}
+
+#logoGama {
+    max-height: 30px;
+}
