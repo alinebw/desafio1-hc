@@ -1,4 +1,3 @@
 # Desafio1-HC
-Desafio - Criar um sistema de e-commerce para cadastro de email na landing page para recebimento de novidades e promoções.
-
+Landing page para cadastro de e-mail que armazena dados no Local Storage.
 
